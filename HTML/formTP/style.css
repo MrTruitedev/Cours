@@ -1,0 +1,33 @@
+button {
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px grey;
+    margin: 20px;
+}
+
+button:hover {
+    transform: scale(1.5);
+    transform-origin: top left;
+}
+
+label {
+    margin: 2px;
+
+}
+
+textarea {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+input::placeholder {
+    text-align: center;
+    text-shadow: 3px 3px 1px grey;
+}
+
+textarea::placeholder {
+    text-shadow: 3px 3px 1px grey;
+}

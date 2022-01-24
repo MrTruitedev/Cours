@@ -1,0 +1,33 @@
+div,p{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid;
+}
+
+div:nth-child(1){
+    background-image: linear-gradient(to bottom left, red, green, blue);
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
+div:nth-child(2){
+    background-image: linear-gradient(-70deg,yellow, purple 30%);
+}
+
+div:nth-child(4){
+    background: radial-gradient(circle at center, lightblue, violet);
+}
+
+div:nth-child(5){
+    background: repeating-radial-gradient(white, black 10px);
+}
+
+div:hover:nth-child(5){
+    background: repeating-radial-gradient(black, white 10px);
+}
+
+p{
+    background: linear-gradient(rgba(1, 1, 1, 0), rgba(0, 0, 0, 0.5));
+}
