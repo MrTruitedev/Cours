@@ -1,15 +1,26 @@
 p{
-    background-color: gray;
+    background-color: rgb(187, 184, 184);
     border: solid green;
 }
 p:first-child{
+    padding: 20px;
     height: 100px;
+    margin: 0px;
 }
 p:nth-child(2){
+    padding: 1.2em;
     width: 50%;
+    margin: 20px 5px;
 }
 p:last-child{
+    padding: -30px;
     height: 200px;
     width: 200px;
     overflow: auto;
+    margin: auto;
+}
+body {
+    background: rgb(145, 12, 145);
+    margin: 0px;
+    padding: 0px;
 }
