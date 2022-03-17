@@ -1,0 +1,15 @@
+.maCouleur{
+    color: aqua;
+    background-color: blueviolet;
+}
+h1{
+    display : none;
+}
+
+body{
+    position: absolute;
+}
+img{
+    width: 200px;
+    height: auto;
+}
